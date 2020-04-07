@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: u8;
+    src: url("/fonts/U8-Bold.8578b2a6.eot?#iefix") format("embedded-opentype"),
+      url("/fonts//U8-Bold.3c48f1d9.ttf") format("truetype"), 
+      url("/fonts//U8-Bold.f9c9e19f.woff") format("woff"),
+       url("/fonts/U8-Bold.7db7f604.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+  }
+body{
+    background:#ADD8E6;
+    background-attachment: fixed;
+    height: 165vh;
+}
+img{
+    position: absolute;
+    top: 6%;
+    left: 43%;
+    margin: 20px 0;
+}
+.formbox{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 132vh;
+    width: 500px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    background: #fff;
+    overflow: hidden;
+   
+}
+#welcome{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    margin: 70px 0px 0px 0px;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#welcome h1{
+color:  #083773 ;
+font-family: 'u8',sans-serif;
+font-size: 25px;
+}
+#welcome h6{
+    color:   #7e7f80  ;
+    font-family:'Karla', sans-serif;
+    font-size: 16px;
+    }
+
+
+#reg{
+    margin: 40px;
+}
+#reg select{
+    z-index: 1;
+}
+#reg input ,select{
+    display: block;
+    height: 50px;
+    width: 400px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    background:  #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#reg input[type=submit]{
+
+    width: 400px;
+    background:  #104892 ;
+    color: #fff;
+    height: 60px;
+    font-size: 1.5em;
+    margin-top: 1.7em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+#reg input[type=submit]:hover{
+    background:  #03295a ; 
+}
+/* .butn{
+    text-size-adjust:20px;
+    -moz-text-size-adjust: 20px;
+    -ms-text-size-adjust: 20px;
+    -webkit-text-size-adjust: 20px;
+} */
+.login{
+    position: absolute;
+    top: 160%;
+    left: 40%;
+    margin: 10px 0;
+    color: #03295a;
+
+}
+.login :hover{
+    color: #31353a;
+}
+label{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #31353a;
+    margin-top: 20px;
+}
